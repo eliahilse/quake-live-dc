@@ -26,7 +26,7 @@ module.exports = {
             }
             embed.addFields({
                 name: field_name,
-                value: `**R:** ${Math.round(player.rating * 60)} **G:** ${player.n} **WR:** ${player.win_ratio}%`
+                value: `**ELO:** ${Math.round(player.rating * 60)} **WR:** ${player.win_ratio}%`
             })
         });
 

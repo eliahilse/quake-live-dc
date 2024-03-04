@@ -11,7 +11,7 @@ async function get_player_page(mode, pageNum)
 
 module.exports = {
     data: new SlashCommandBuilder()
-        .setName('lbfull')
+        .setName('leaderboard')
         .setDescription('Leaderboard'),
 
     async execute(interaction, keyv) {
